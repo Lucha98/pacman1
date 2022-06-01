@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    color: yellow;
+    text-align: center;
+}
+.cajapacman{
+    margin: 20px;
+    border: 2px solid blue;
+    height: 80vh;
+    background-image: url(https://i.pinimg.com/originals/a8/3e/62/a83e62f7599c5b91c6bcb05e8492ea56.png);
+    background-size: 1150px;
+
+    
+}
+.fantasma{
+    position: relative;
+    animation: fantasmacorre 7s infinite;
+}
+@keyframes fantasmacorre {
+    0% {top: 0px; left: 0px;}
+    5% {top: 0px; left: 1200px;}
+    10% {top: 100px; left: 1200px;}
+    15% {top: 100px; left: 0px;}
+    20% {top: 200px; left: 0px;}
+    25% {top: 200px;left: 1200px;}
+    30% {top: 300px; left: 1200px;}
+    35% {top: 300px; left: 0px;}
+    40% {top: 400px; left: 0px;}
+    45% {top: 400px; left: 1200px;}
+    
+  }
+.logo{
+    text-align: center;
+} 
